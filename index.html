@@ -1,30 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio Morvan Marques</title>
-    
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,900;1,300;1,400;1,500;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,900;1,300;1,400;1,500;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 
     <!-- Dev Icon Fonts -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css">
     <!-- CSS Page -->
     <link rel="stylesheet" href="css/stylesheet.css">
 </head>
+
 <body>
     <main id="container">
         <aside id="bio-container">
-            <h2>Morvan Marques</h2>
             <img src="img/profile.jpg" alt="Morvan Marques">
-            <p>Olá, me chamo Morvan Marques e sou <span class="highlight">Desenvolvedor Front-end</span></p>
+            <p>Olá, me chamo Morvan Marques e aqui estão meus contatos:</p>
             <p id="welcome-text">Seja bem-vindo!</p>
             <ul id="social-container">
-                <li><a href="https://www.linkedin.com/in/morvan-marques/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li><a href="https://www.instagram.com/morvanmc/" target="_blank">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a></li>
+                <li><a href="https://www.linkedin.com/in/morvan-marques/" target="_blank">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=5522998770575/" target="_blank">
+                        <ion-icon name="logo-whatsapp"></ion-icon>
+                    </a></li>
             </ul>
             <div id="email-container">
                 <ion-icon name="mail-outline"></ion-icon><a href="mailto:morvanmc@outlook.com">morvanmc@outlook.com</a>
@@ -32,23 +47,69 @@
         </aside>
 
         <section id="about-container">
-            <h1 id="name">Morvan Marques</h1>
-            <p id="title"><span class="highlight">Desenvolvedor Front-end</span></p>
-            <p class="description">Sou <span class="highlight">Analista de Sistemas</span>.
-                Trabalhei anos como funcionário público, mas, em busca de novos aprendizados e desafios, 
-                resolvi virar empreendedor, onde absorvi e vivenciei o máximo possível.
-                Hoje <span class="highlight">procuro uma oportunidade</span> para atuar em minha área de formação.</p>
+            <div id="div-name">
+                <h1 id="name"><span id="name" class="highlight2">Morvan</span>Marques</h1>
+                <p id="subtitle">desenvolvedor front-end</p>
+            </div>
 
-            <p class="description">Atualmente venho me especializando no desenvolvimento Front-end, através de <span class="highlight">techs</span>
-                como:
-                <ul>
-                    <li>React</li>
-                    <li>React Native</li>
-                </ul>
-            </p>
-            <a href="https://github.com/Morvanmc" target="_blank" id="btn-projects"><ion-icon name="share-social-outline"></ion-icon><span>Ver Projetos</span></a>
-            <h2 id="skills-section-title">Minhas Skills</h2>
-            <p class="description">Conheça as tecnologias que domino:</p>
+            <a href="https://github.com/Morvanmc" target="_blank" id="btn-projects">
+                <ion-icon name="code-slash-outline"></ion-icon><span>Ver Projetos</span>
+            </a>
+
+            <div id="div-about">
+                <h2 id="skills-section-title">sobre <span id="name" class="highlight2">mim</span></h2>
+                <p class="description">Sou Morvan Marques, programador Front-end residente da cidade de
+                    Cabo Frio, interior do Rio de Janeiro. Formado em Sistema de Informação desde 2015,
+                    iniciei minha carreira profissional em 2012 como estagiário de TI no Aeroporto Internacional
+                    de Cabo Frio. Após alguns meses de experiência fui aprovado no concurso dos Correios, onde
+                    trabalhei por quase 6 anos. Pedi demissão e fui em busca de maiores desafios profissionais,
+                    o que me levou ao empreendedorismo no qual me dediquei por quase 3 anos até a chegada da pandemia,
+                    onde tive que me reinventar e tomar novos rumos na minha carreira.</p>
+                </br>
+                <p class="description">No início de 2020 resolvi que voltaria a atuar na minha área de formação e desde
+                    então tenho estudado e me aperfeiçoado na programação front-end, participando de projetos e
+                    desenvolvido
+                    meus próprios enquanto busco uma oportunidade.</p>
+            </div>
+
+            <div id="div-projects">
+                <h2 id="skills-section-title"><span id="name" class="highlight2">alguns</span> projetos</h2>
+                <div id="project-item">
+                    <img src="img/StreetPets.png" alt="Street Pets">
+                    <p class="project-description">Essa aplicação foi baseada no bootcamp Semana OmniStack 10.0 da
+                        RocketSeat.
+                        O proposito foi desenvolver uma aplicação Web e Mobile onde, através de um raio por Km, são
+                        sinalizadas
+                        estações de comedouro e bebedouro para animais de rua.
+                        <a href="https://github.com/Morvanmc/StreetPets" target="_blank" id="btn-projects">
+                            <ion-icon name="eye-outline"></ion-icon><span>Ver projeto</span>
+                        </a>
+                    </p>
+                </div>
+                <div id="project-item">
+                    <img src="img/ExerciciosJS.png" alt="Exercícios JS">
+                    <p class="project-description">Projeto baseado na lista de exercícios retirada do curso Web Moderno
+                        - Udemy, ministrado pelo Prof. Leonardo Leitão. A proposta inicial da lista era resolver cada
+                        exercício utilizando apenas JS , mas para fins de prática de outras techs, foram adionados HTML
+                        e CSS na resolução, além da utilização de AJAX para facilitar a navegação.
+                        <a href="https://github.com/Morvanmc/Exercicios-JS" target="_blank" id="btn-projects">
+                            <ion-icon name="eye-outline"></ion-icon><span>Ver projeto</span>
+                        </a>
+                    </p>
+                </div>
+                <div id="project-item">
+                    <img src="img/365Frases.png" alt="365 Frases">
+                    <p class="project-description">Aplicativo que gera frases e compartilha nas redes sociais, além de
+                        permitir o usuário cadastrar suas próprias frases. O objetivo foi, além de aprofundar o
+                        conhecimento em React Native e Expo, também utilizar o MongoDB e o Heroku.
+                        <a href="https://github.com/Morvanmc/365frases_dev" target="_blank" id="btn-projects">
+                            <ion-icon name="eye-outline"></ion-icon><span>Ver projeto</span>
+                        </a>
+                    </p>
+                </div>
+            </div>
+
+            <h2 id="skills-section-title">minhas <span id="name" class="highlight2">skills</span></h2>
             <div id="skills-container">
                 <div class="skills-box">
                     <p class="skills-title">Front-end</p>
@@ -62,13 +123,20 @@
                 </div>
                 <div class="skills-box">
                     <p class="skills-title">Databases</p>
-                    <i class="devicon-mysql-plain colored"></i>
                     <i class="devicon-mongodb-plain colored"></i>
                 </div>
                 <div class="skills-box">
                     <p class="skills-title">Front-end Frameworks</p>
                     <i class="devicon-react-plain colored"></i>
-                    <i class="devicon-vuejs-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Outras techs</p>
+                    <i class="devicon-figma-plain"></i>
+                    <i class="devicon-git-plain colored"></i>
+                    <i class="devicon-github-original"></i>
+                    <i class="devicon-vscode-plain colored"></i>
+                    <i class="devicon-gimp-plain"></i>
+                    <i class="devicon-wordpress-plain colored"></i>
                 </div>
             </div>
         </section>
@@ -77,4 +145,5 @@
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>
