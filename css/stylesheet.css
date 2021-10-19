@@ -16,6 +16,7 @@
     --bio-border-color: #293544;
     --about-bg-color: #111821;
     --highlight-2: #1B98E0;
+    --highlight-3: #cbf3f0;
 }
 
 /* General */
@@ -25,6 +26,9 @@
 }
 
 .highlight2 {
+    font-size: 42px;
+    margin-bottom: 15px;
+    font-family: 'Comfortaa', sans-serif;
     color: var(--highlight-2);
 }
 
@@ -86,7 +90,7 @@
 }
 
 #social-container li a {
-    color: var(--main-color);
+    color: var(--highlight-3);
     font-size: 30px;
 }
 
@@ -107,7 +111,7 @@
 }
 
 #email-container ion-icon {
-    color: var(--main-color);
+    color: var(--highlight-3);
     font-size: 20px;
     margin-right: 5px;
     max-width: 20px;
@@ -178,11 +182,6 @@
     background-color: transparent;
 }
 
-#div-projects {
-    display: flex;
-    flex-direction: column;
-}
-
 #project-item {
     display: flex;
     flex-direction: row;
@@ -193,6 +192,10 @@
     width: 200px;
     height: 200px;
     border-radius: 5%;
+    margin-bottom: 20px;
+}
+
+#project-item a {
     margin-bottom: 25px;
 }
 
@@ -272,6 +275,14 @@
 
     #btn-projects {
         margin: 20px auto;
+    }
+
+    #project-item {
+        flex-direction: column;
+    }
+
+    #project-item img {
+        margin-bottom: 10px;
     }
 
     .skills-box {
