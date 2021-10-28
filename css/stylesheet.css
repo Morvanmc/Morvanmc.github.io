@@ -97,6 +97,12 @@
 #email-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn-action {
+    display: flex;
+    justify-content: center;
 }
 
 /*#email-container ion-icon,
@@ -142,6 +148,10 @@
     margin-bottom: 10px;
     font-family: 'Confortaa', sans-serif;
     font-size: 16px;
+}
+
+#action-btn {
+    flex-direction: row;
 }
 
 #div-about {
