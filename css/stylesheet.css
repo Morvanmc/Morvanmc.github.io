@@ -100,6 +100,11 @@
     flex-wrap: wrap;
 }
 
+.resume-container {
+    display: flex;
+    justify-content: center;
+}
+
 .btn-action {
     display: flex;
     justify-content: center;
